@@ -31,6 +31,7 @@ public class MainGE extends JFrame {
 		JLabel newItem = new JLabel("New:");
 		south.add(newItem);
 		JComboBox<String> c1 = new JComboBox<>();
+		c1.addItem("Select category..");
 		c1.addItem("Jewellery");
 		c1.addItem("Stock");
 		c1.addItem("Apparatus");
@@ -46,7 +47,7 @@ public class MainGE extends JFrame {
 		JScrollPane scroll = new JScrollPane(textarea);
 		add(scroll, BorderLayout.CENTER);
 		
-		setSize(1000, 500);
+		setSize(500, 200);
 		setLocationRelativeTo(null);
 		setVisible(true);
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
