@@ -42,7 +42,7 @@ public class MainGE extends JFrame {
 		south.add(mCrash);
 		add(south, BorderLayout.SOUTH);
 		
-		textarea.setText(addText());
+		textarea.setText("Absolutely");
 		textarea.setEditable(false);
 		JScrollPane scroll = new JScrollPane(textarea);
 		add(scroll, BorderLayout.CENTER);
@@ -53,8 +53,6 @@ public class MainGE extends JFrame {
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 	
-	private String addText() {
-		String str = "jkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöbjkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöbjkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöbjkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöbjkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöbjkhgsdjkghsjkhgjkshgjkshjks\nhkjsjkhskjhsl\nkjhlskfjhlkfsjh\nlkfsjhk\nlsjbsmwrohmbsopaöb";
-		return str;
-	}
+	
+	
 }
