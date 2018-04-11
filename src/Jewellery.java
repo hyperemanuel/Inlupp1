@@ -15,6 +15,6 @@ public class Jewellery extends Valuable {
 	}
 	
 	public String toString(){
-		return super.toString() + (isGold ? " Gold " : " Silver ") + gemStone;
+		return " Jewellery: " + super.toString() + "  Metal: " + (isGold ? " Gold " : " Silver ") + "  Gemstones: " +  gemStone;
 	}
 }

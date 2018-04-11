@@ -14,6 +14,6 @@ public class Apparatus extends Valuable {
 	}
 	
 	public String toString(){
-		return super.toString() + " " + purPrice + " " + wear;
+		return " Apparatus: " + super.toString() + "  Purchase price: " + purPrice + "  Wear: " + wear;
 	}
 }
