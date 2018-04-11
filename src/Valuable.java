@@ -13,9 +13,11 @@ public abstract class Valuable {
 		return (getValue() * 1.25);
 	}
 	
-//	abstract public String toString();
-	
 	public String toString(){
-		return name + " " + getRealValue() + " ";
+		return name + " Value: " + getRealValue() + " ";
+	}
+	
+	public String getName() {
+		return name;
 	}
 }

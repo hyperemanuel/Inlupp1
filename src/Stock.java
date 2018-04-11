@@ -18,6 +18,6 @@ public class Stock extends Valuable {
 	}
 	
 	public String toString(){
-		return super.toString() + " " + amount + " " + price;
+		return " Stock: " + super.toString() + "  Amount: " + amount + "  Price: " + price;
 	}
 }
